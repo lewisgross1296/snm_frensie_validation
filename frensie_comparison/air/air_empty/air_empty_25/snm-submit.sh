@@ -8,13 +8,16 @@
 #SBATCH --error=snm_%J.err
 #SBATCH --output=snm_%J.out
 
+
 # build command
+# FIRST LOG INTO AN INTERACTIVE NODE
+# srun -n1 -N1 -p int --pty bash
 # need to do these first only ond3
 # unset HTTPS_PROXY
 # unset http_proxy
 # singularity build frensie_hpc.simg docker://ligross/frensie_hpc:frensie_stable 
 module load openmpi
-mpirun -np $SLURM_NTASKS singularity exec frensie_hpc.simg python snm.py --sim_name="snm" --num_particles=1e11 --threads=$SLURM_CPUS_PER_TASK
+mpirun -np $SLURM_NTASKS singularity exec frensie_hpc.simg python snm.py --sim_name="snm" --num_particles=1e11 --threads=$SLURM_CPUS_PER_TASK --db_path=/home/simulator/data/database.xml
 # -np $SLURM_NTASKS has mpi create $SLURM_NTASKS copies of the program and MPI handles the data;
 # transfering between nodes and the process 0 node 
 
