@@ -1,0 +1,211 @@
+Traceback (most recent call last):
+  File "snm.py", line 37, in <module>
+Traceback (most recent call last):
+  File "snm.py", line 37, in <module>
+Traceback (most recent call last):
+  File "snm.py", line 37, in <module>
+    options.log_file )
+  File "../snm_simulation.py", line 141, in snmSimulation
+    options.log_file )
+  File "../snm_simulation.py", line 141, in snmSimulation
+Traceback (most recent call last):
+  File "snm.py", line 37, in <module>
+    options.log_file )
+  File "../snm_simulation.py", line 141, in snmSimulation
+    filled_model = Collision.FilledGeometryModel( db_path, scattering_center_definitions, material_definitions, simulation_properties, model, True )
+  File "/home/simulator/FRENSIE/lib/python2.7/site-packages/PyFrensie/MonteCarlo/GeometryModel.py", line 774, in __init__
+    filled_model = Collision.FilledGeometryModel( db_path, scattering_center_definitions, material_definitions, simulation_properties, model, True )
+  File "/home/simulator/FRENSIE/lib/python2.7/site-packages/PyFrensie/MonteCarlo/GeometryModel.py", line 774, in __init__
+    _GeometryModel.FilledGeometryModel_swiginit(self, _GeometryModel.new_FilledGeometryModel(database_path, scattering_center_definitions, material_definitions, properties, geometry_model, verbose_construction))
+RuntimeError    filled_model = Collision.FilledGeometryModel( db_path, scattering_center_definitions, material_definitions, simulation_properties, model, True )
+  File "/home/simulator/FRENSIE/lib/python2.7/site-packages/PyFrensie/MonteCarlo/GeometryModel.py", line 774, in __init__
+: Error: Could not fill the model with neutron materials!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_FilledGeometryModel.cpp:277
+
+Error: Could not load the requested scattering centers!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_StandardFilledParticleGeometryModel_def.hpp:75
+
+Error: ACE file /home/simulator/data/xdata/endf71x/Ar/18040.710nc does not exist!
+  Throw test that evaluated to true: !boost::filesystem::exists( d_ace_library_name )
+  Exception Type: std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/data/ace/src/Data_ACEFileHandler.cpp:49
+
+Traceback (most recent call last):
+  File "snm.py", line 37, in <module>
+    _GeometryModel.FilledGeometryModel_swiginit(self, _GeometryModel.new_FilledGeometryModel(database_path, scattering_center_definitions, material_definitions, properties, geometry_model, verbose_construction))
+RuntimeError: Error: Could not fill the model with neutron materials!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_FilledGeometryModel.cpp:277
+
+Error: Could not load the requested scattering centers!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_StandardFilledParticleGeometryModel_def.hpp:75
+
+Error: ACE file /home/simulator/data/xdata/endf71x/Ar/18040.710nc does not exist!
+  Throw test that evaluated to true: !boost::filesystem::exists( d_ace_library_name )
+  Exception Type: std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/data/ace/src/Data_ACEFileHandler.cpp:49
+
+    options.log_file )
+  File "../snm_simulation.py", line 141, in snmSimulation
+    _GeometryModel.FilledGeometryModel_swiginit(self, _GeometryModel.new_FilledGeometryModel(database_path, scattering_center_definitions, material_definitions, properties, geometry_model, verbose_construction))
+RuntimeError: Error: Could not fill the model with neutron materials!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_FilledGeometryModel.cpp:277
+
+Error: Could not load the requested scattering centers!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_StandardFilledParticleGeometryModel_def.hpp:75
+
+Error: ACE file /home/simulator/data/xdata/endf71x/Ar/18040.710nc does not exist!
+  Throw test that evaluated to true: !boost::filesystem::exists( d_ace_library_name )
+  Exception Type: std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/data/ace/src/Data_ACEFileHandler.cpp:49
+
+    filled_model = Collision.FilledGeometryModel( db_path, scattering_center_definitions, material_definitions, simulation_properties, model, True )
+  File "/home/simulator/FRENSIE/lib/python2.7/site-packages/PyFrensie/MonteCarlo/GeometryModel.py", line 774, in __init__
+    options.log_file )
+  File "../snm_simulation.py", line 141, in snmSimulation
+    _GeometryModel.FilledGeometryModel_swiginit(self, _GeometryModel.new_FilledGeometryModel(database_path, scattering_center_definitions, material_definitions, properties, geometry_model, verbose_construction))
+RuntimeError: Error: Could not fill the model with neutron materials!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_FilledGeometryModel.cpp:277
+
+Error: Could not load the requested scattering centers!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_StandardFilledParticleGeometryModel_def.hpp:75
+
+Error: ACE file /home/simulator/data/xdata/endf71x/Ar/18040.710nc does not exist!
+  Throw test that evaluated to true: !boost::filesystem::exists( d_ace_library_name )
+  Exception Type: std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/data/ace/src/Data_ACEFileHandler.cpp:49
+
+    filled_model = Collision.FilledGeometryModel( db_path, scattering_center_definitions, material_definitions, simulation_properties, model, True )
+  File "/home/simulator/FRENSIE/lib/python2.7/site-packages/PyFrensie/MonteCarlo/GeometryModel.py", line 774, in __init__
+    _GeometryModel.FilledGeometryModel_swiginit(self, _GeometryModel.new_FilledGeometryModel(database_path, scattering_center_definitions, material_definitions, properties, geometry_model, verbose_construction))
+RuntimeError: Error: Could not fill the model with neutron materials!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_FilledGeometryModel.cpp:277
+
+Error: Could not load the requested scattering centers!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_StandardFilledParticleGeometryModel_def.hpp:75
+
+Error: ACE file /home/simulator/data/xdata/endf71x/Ar/18040.710nc does not exist!
+  Throw test that evaluated to true: !boost::filesystem::exists( d_ace_library_name )
+  Exception Type: std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/data/ace/src/Data_ACEFileHandler.cpp:49
+
+Traceback (most recent call last):
+  File "snm.py", line 37, in <module>
+Traceback (most recent call last):
+  File "snm.py", line 37, in <module>
+Traceback (most recent call last):
+  File "snm.py", line 37, in <module>
+    options.log_file )
+  File "../snm_simulation.py", line 141, in snmSimulation
+    options.log_file )
+    options.log_file )
+  File "../snm_simulation.py", line 141, in snmSimulation
+  File "../snm_simulation.py", line 141, in snmSimulation
+    filled_model = Collision.FilledGeometryModel( db_path, scattering_center_definitions, material_definitions, simulation_properties, model, True )
+  File "/home/simulator/FRENSIE/lib/python2.7/site-packages/PyFrensie/MonteCarlo/GeometryModel.py", line 774, in __init__
+    _GeometryModel.FilledGeometryModel_swiginit(self, _GeometryModel.new_FilledGeometryModel(database_path, scattering_center_definitions, material_definitions, properties, geometry_model, verbose_construction))
+RuntimeError: Error: Could not fill the model with neutron materials!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_FilledGeometryModel.cpp:277
+
+Error: Could not load the requested scattering centers!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_StandardFilledParticleGeometryModel_def.hpp:75
+
+Error: ACE file /home/simulator/data/xdata/endf71x/Ar/18040.710nc does not exist!
+  Throw test that evaluated to true: !boost::filesystem::exists( d_ace_library_name )
+  Exception Type: std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/data/ace/src/Data_ACEFileHandler.cpp:49
+
+    filled_model = Collision.FilledGeometryModel( db_path, scattering_center_definitions, material_definitions, simulation_properties, model, True )
+  File "/home/simulator/FRENSIE/lib/python2.7/site-packages/PyFrensie/MonteCarlo/GeometryModel.py", line 774, in __init__
+    _GeometryModel.FilledGeometryModel_swiginit(self, _GeometryModel.new_FilledGeometryModel(database_path, scattering_center_definitions, material_definitions, properties, geometry_model, verbose_construction))
+RuntimeError: Error: Could not fill the model with neutron materials!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_FilledGeometryModel.cpp:277
+
+Error: Could not load the requested scattering centers!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_StandardFilledParticleGeometryModel_def.hpp:75
+
+Error: ACE file /home/simulator/data/xdata/endf71x/Ar/18040.710nc does not exist!
+  Throw test that evaluated to true: !boost::filesystem::exists( d_ace_library_name )
+  Exception Type: std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/data/ace/src/Data_ACEFileHandler.cpp:49
+
+    filled_model = Collision.FilledGeometryModel( db_path, scattering_center_definitions, material_definitions, simulation_properties, model, True )
+  File "/home/simulator/FRENSIE/lib/python2.7/site-packages/PyFrensie/MonteCarlo/GeometryModel.py", line 774, in __init__
+    _GeometryModel.FilledGeometryModel_swiginit(self, _GeometryModel.new_FilledGeometryModel(database_path, scattering_center_definitions, material_definitions, properties, geometry_model, verbose_construction))
+RuntimeError: Error: Could not fill the model with neutron materials!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_FilledGeometryModel.cpp:277
+
+Error: Could not load the requested scattering centers!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_StandardFilledParticleGeometryModel_def.hpp:75
+
+Error: ACE file /home/simulator/data/xdata/endf71x/Ar/18040.710nc does not exist!
+  Throw test that evaluated to true: !boost::filesystem::exists( d_ace_library_name )
+  Exception Type: std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/data/ace/src/Data_ACEFileHandler.cpp:49
+
+Traceback (most recent call last):
+  File "snm.py", line 37, in <module>
+    options.log_file )
+  File "../snm_simulation.py", line 141, in snmSimulation
+    filled_model = Collision.FilledGeometryModel( db_path, scattering_center_definitions, material_definitions, simulation_properties, model, True )
+  File "/home/simulator/FRENSIE/lib/python2.7/site-packages/PyFrensie/MonteCarlo/GeometryModel.py", line 774, in __init__
+Traceback (most recent call last):
+  File "snm.py", line 37, in <module>
+    _GeometryModel.FilledGeometryModel_swiginit(self, _GeometryModel.new_FilledGeometryModel(database_path, scattering_center_definitions, material_definitions, properties, geometry_model, verbose_construction))
+RuntimeError:     options.log_file )
+Error: Could not fill the model with neutron materials!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_FilledGeometryModel.cpp:277
+
+Error: Could not load the requested scattering centers!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_StandardFilledParticleGeometryModel_def.hpp:75
+
+Error: ACE file /home/simulator/data/xdata/endf71x/Ar/18040.710nc does not exist!
+  Throw test that evaluated to true: !boost::filesystem::exists( d_ace_library_name )
+  Exception Type: std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/data/ace/src/Data_ACEFileHandler.cpp:49
+
+  File "../snm_simulation.py", line 141, in snmSimulation
+    filled_model = Collision.FilledGeometryModel( db_path, scattering_center_definitions, material_definitions, simulation_properties, model, True )
+  File "/home/simulator/FRENSIE/lib/python2.7/site-packages/PyFrensie/MonteCarlo/GeometryModel.py", line 774, in __init__
+    _GeometryModel.FilledGeometryModel_swiginit(self, _GeometryModel.new_FilledGeometryModel(database_path, scattering_center_definitions, material_definitions, properties, geometry_model, verbose_construction))
+RuntimeError: Error: Could not fill the model with neutron materials!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_FilledGeometryModel.cpp:277
+
+Error: Could not load the requested scattering centers!
+  Exception Type: std::runtime_error  ->  std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/monte_carlo/collision/kernel/src/MonteCarlo_StandardFilledParticleGeometryModel_def.hpp:75
+
+Error: ACE file /home/simulator/data/xdata/endf71x/Ar/18040.710nc does not exist!
+  Throw test that evaluated to true: !boost::filesystem::exists( d_ace_library_name )
+  Exception Type: std::runtime_error
+  Location: /home/simulator/FRENSIE/src/packages/data/ace/src/Data_ACEFileHandler.cpp:49
+
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[49231,1],6]
+  Exit code:    1
+--------------------------------------------------------------------------

@@ -1,12 +1,14 @@
 #!/bin/sh
-#SBATCH --partition=univ2
-#SBATCH --time=3-12:00:00 
+#SBATCH --partition=pre
+#SBATCH --time=1-00:00:00 
 #SBATCH --nodes=2
 #SBATCH --ntasks-per-node=5
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=600
 #SBATCH --error=snm_%J.err
 #SBATCH --output=snm_%J.out
+#SBATCH --exclude=hpc[109-112,117-136,141-168,193-208,213-256,265-292,301-316,325-332]
+# exclude nodes  to try and target hardware with AVX2 ISA
 
 
 # build command
