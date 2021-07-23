@@ -52,6 +52,7 @@ def snmSimulation( sim_name,
     
     # Set the number of histories to run and the number of rendezvous
     simulation_properties.setNumberOfHistories( num_particles )
+    simulation_properties.setMaxRendezvousBatchSize( 10000000000 )
     simulation_properties.setMinNumberOfRendezvous( 10 )
     simulation_properties.setImplicitCaptureModeOn()
     
