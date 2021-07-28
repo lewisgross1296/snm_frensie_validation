@@ -22,9 +22,12 @@ if __name__ == "__main__":
     parser = OptionParser()
     parser.add_option("--rendezvous_file", type="string", dest="rendezvous_file",
                       help="the rendezvous file to restart")
+    parser.add_option("--threads", type="int", dest="threads", default=1,
+                      help="the number of threads to use")
     options,args = parser.parse_args()
 
     rendezvous_file = options.rendezvous_file
+    threads = options.threads
 
 
 ##---------------------------------------------------------------------------##
@@ -43,7 +46,7 @@ if __name__ == "__main__":
 ##---------------------------------------------------------------------------##
 
     #Create the paricle simulatiom manager from the rendezvous file
-    manager = Manager.ParticleSimulationManagerFactory( rendezvous_file ).getManager()
+    manager = Manager.ParticleSimulationManagerFactory( rendezvous_file , threads ).getManager()
 
     # Turn on multiple rendezvous files
     manager.useMultipleRendezvousFiles()
