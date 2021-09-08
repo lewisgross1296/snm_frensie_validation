@@ -7,8 +7,7 @@
 #SBATCH --mem-per-cpu=600
 #SBATCH --error=snm_%J.err
 #SBATCH --output=snm_%J.out
-#SBATCH --exclude=hpc[109-112,117-136,141-168,193-208,213-256,265-292,301-316,325-332]
-# exclude nodes target hardware with AVX2 ISA
+#SBATCH --constrain=avx
 
 
 # build command
