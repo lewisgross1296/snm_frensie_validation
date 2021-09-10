@@ -7,7 +7,7 @@
 #SBATCH --mem-per-cpu=600
 #SBATCH --error=snm_%J.err
 #SBATCH --output=snm_%J.out
-#SBATCH --constrain=avx
+#SBATCH --constrain=avx2
 
 
 
