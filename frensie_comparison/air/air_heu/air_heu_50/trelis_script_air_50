@@ -23,13 +23,13 @@ imprint body all
 merge tol 5e-7
 merge all
 group "termination.cell" add volume 11
+group "mat_2_rho_-8.000000" add volume 3
 group "mat_1_rho_-0.001205" add volume 4
 group "mat_1_rho_-0.001205" add volume 5
 group "mat_1_rho_-0.001205" add volume 6
 group "mat_1_rho_-0.001205" add volume 7
 group "mat_1_rho_-0.001205" add volume 8
 group "mat_1_rho_-0.001205" add volume 14
-group "mat_2_rho_-8.000000" add volume 3
 group "mat_3_rho_-18.72476" add volume 15
 group "estimator_1.cell.tl.flux.n" add volume 4
 group "estimator_2.cell.tl.flux.n" add volume 5
