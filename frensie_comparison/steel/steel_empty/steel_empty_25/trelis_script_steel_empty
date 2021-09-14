@@ -1,4 +1,4 @@
-cd '/Users/lewisgross/Local_Projects/Trelis/steel_heu_50'
+cd '/Users/lewisgross/Local_Projects/Trelis/steel_empty'
 create brick x 100 y 100 z 100
 create brick x 105 y 105 z 105
 subtract volume 1 from volume 2
@@ -16,9 +16,6 @@ create brick x 150 y 150 z 150
 create brick x 152 y 152 z 152
 subtract volume 9 from volume 10
 create brick x 100 y 100 z 100
-create sphere radius 5
-subtract volume 13 from volume 12
-create sphere radius 5
 imprint body all
 merge tol 5e-7
 merge all
@@ -29,8 +26,7 @@ group "mat_1_rho_-0.001205" add volume 5
 group "mat_1_rho_-0.001205" add volume 6
 group "mat_1_rho_-0.001205" add volume 7
 group "mat_1_rho_-0.001205" add volume 8
-group "mat_2_rho_-4.000000" add volume 14
-group "mat_3_rho_-18.72476" add volume 15
+group "mat_2_rho_-4.000000" add volume 12
 group "estimator_1.cell.tl.flux.n" add volume 4
 group "estimator_2.cell.tl.flux.n" add volume 5
 group "estimator_3.cell.tl.flux.n" add volume 6
