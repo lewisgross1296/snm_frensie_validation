@@ -204,11 +204,11 @@ def snmSimulation( sim_name,
     event_handler = Event.EventHandler( model, simulation_properties )
     
     # Set Time Bins for Estimators
-    event_handler.getEstimator( 1 ).setTimeDiscretization( [0 , 0.1 , 0.12 , 0.14 , 0.16 , 0.18 , 0.2, 0.22, 0.24, 0.28, 0.30] )
-    event_handler.getEstimator( 2 ).setTimeDiscretization( [0 , 0.1 , 0.12 , 0.14 , 0.16 , 0.18 , 0.2, 0.22, 0.24, 0.28, 0.30] )
-    event_handler.getEstimator( 3 ).setTimeDiscretization( [0 , 0.1 , 0.12 , 0.14 , 0.16 , 0.18 , 0.2, 0.22, 0.24, 0.28, 0.30] )
-    event_handler.getEstimator( 4 ).setTimeDiscretization( [0 , 0.1 , 0.12 , 0.14 , 0.16 , 0.18 , 0.2, 0.22, 0.24, 0.28, 0.30] )
-    event_handler.getEstimator( 5 ).setTimeDiscretization( [0 , 0.1 , 0.12 , 0.14 , 0.16 , 0.18 , 0.2, 0.22, 0.24, 0.28, 0.30] )
+    event_handler.getEstimator( 1 ).setTimeDiscretization( [0 , 0.1 , 0.12 , 0.14 , 0.16 , 0.18 , 0.2, 0.22, 0.24, 0.26, 0.28, 0.30] )
+    event_handler.getEstimator( 2 ).setTimeDiscretization( [0 , 0.1 , 0.12 , 0.14 , 0.16 , 0.18 , 0.2, 0.22, 0.24, 0.26, 0.28, 0.30] )
+    event_handler.getEstimator( 3 ).setTimeDiscretization( [0 , 0.1 , 0.12 , 0.14 , 0.16 , 0.18 , 0.2, 0.22, 0.24, 0.26, 0.28, 0.30] )
+    event_handler.getEstimator( 4 ).setTimeDiscretization( [0 , 0.1 , 0.12 , 0.14 , 0.16 , 0.18 , 0.2, 0.22, 0.24, 0.26, 0.28, 0.30] )
+    event_handler.getEstimator( 5 ).setTimeDiscretization( [0 , 0.1 , 0.12 , 0.14 , 0.16 , 0.18 , 0.2, 0.22, 0.24, 0.26, 0.28, 0.30] )
     
 ##---------------------------------------------------------------------------##
 ## Set up the simulation manager
