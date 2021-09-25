@@ -17,7 +17,7 @@ create brick x 152 y 152 z 152
 subtract volume 9 from volume 10
 create brick x 100 y 100 z 100
 create sphere radius 5
-move volume 13 x -25 y -25 z -25
+move volume 13 x -25 y 0 z 25
 subtract volume 13 from volume 12
 create sphere radius 5
 move volume 15 x -25 y 0 z 25
