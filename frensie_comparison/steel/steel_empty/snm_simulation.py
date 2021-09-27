@@ -55,6 +55,8 @@ def snmSimulation( sim_name,
     simulation_properties.setMaxRendezvousBatchSize( 10000000000 )
     simulation_properties.setMinNumberOfRendezvous( 10 )
     simulation_properties.setImplicitCaptureModeOn()
+    simulation_properties.setNeutronRouletteThresholdWeight( 1e-20 )
+    simulation_properties.setNeutronRouletteSurvivalWeight( 1e-18 )
     
 ##---------------------------------------------------------------------------##
 ## Set up the materials
