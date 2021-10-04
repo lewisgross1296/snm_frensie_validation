@@ -1872,7 +1872,7 @@
 																														</BaseType>
 																														<d_dimension_bin_boundaries class_id="150" tracking_level="0" version="1">
 																															<px class_id="43" object_id="_107">
-																																<count>7</count>
+																																<count>12</count>
 																																<item_version>0</item_version>
 																																<item>0.00000000000000000e+00</item>
 																																<item>1.00000000000000006e-01</item>
@@ -1881,6 +1881,11 @@
 																																<item>1.60000000000000003e-01</item>
 																																<item>1.79999999999999993e-01</item>
 																																<item>2.00000000000000011e-01</item>
+																																<item>2.20000000000000001e-01</item>
+																																<item>2.39999999999999991e-01</item>
+																																<item>2.60000000000000009e-01</item>
+																																<item>2.80000000000000027e-01</item>
+																																<item>2.99999999999999989e-01</item>
 																															</px>
 																														</d_dimension_bin_boundaries>
 																													</BaseType>
@@ -1888,10 +1893,10 @@
 																												<d_grid_searcher class_id="151" tracking_level="0" version="0">
 																													<tx class_id="152" class_name="StandardHashBasedGridSearcher&lt;std::vector&lt;double&gt;&gt;Raw" tracking_level="1" version="0" object_id="_108">
 																														<BaseType class_id="153" tracking_level="0" version="0"></BaseType>
-																														<d_hash_grid_size>2</d_hash_grid_size>
+																														<d_hash_grid_size>3</d_hash_grid_size>
 																														<d_hash_grid_min>0.00000000000000000e+00</d_hash_grid_min>
-																														<d_hash_grid_max>2.00000000000000011e-01</d_hash_grid_max>
-																														<d_hash_grid_length>2.00000000000000011e-01</d_hash_grid_length>
+																														<d_hash_grid_max>2.99999999999999989e-01</d_hash_grid_max>
+																														<d_hash_grid_length>2.99999999999999989e-01</d_hash_grid_length>
 																														<d_grid>
 																															<px class_id_reference="43" object_id_reference="_107"></px>
 																														</d_grid>
@@ -2544,8 +2549,13 @@
 																						<BaseType class_id="163" tracking_level="0" version="0">
 																							<BaseType class_id="164" tracking_level="0" version="0"></BaseType>
 																							<moment_1 object_id="_111">
-																								<count>6</count>
+																								<count>11</count>
 																								<item_version>0</item_version>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
@@ -2555,8 +2565,13 @@
 																							</moment_1>
 																						</BaseType>
 																						<moment_2 object_id="_112">
-																							<count>6</count>
+																							<count>11</count>
 																							<item_version>0</item_version>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
@@ -2566,8 +2581,13 @@
 																						</moment_2>
 																					</BaseType>
 																					<moment_3 object_id="_113">
-																						<count>6</count>
+																						<count>11</count>
 																						<item_version>0</item_version>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
@@ -2577,8 +2597,13 @@
 																					</moment_3>
 																				</BaseType>
 																				<moment_4 object_id="_114">
-																					<count>6</count>
+																					<count>11</count>
 																					<item_version>0</item_version>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
@@ -2599,8 +2624,13 @@
 																								<BaseType>
 																									<BaseType></BaseType>
 																									<moment_1 object_id="_115">
-																										<count>6</count>
+																										<count>11</count>
 																										<item_version>0</item_version>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
@@ -2610,8 +2640,13 @@
 																									</moment_1>
 																								</BaseType>
 																								<moment_2 object_id="_116">
-																									<count>6</count>
+																									<count>11</count>
 																									<item_version>0</item_version>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
@@ -2621,8 +2656,13 @@
 																								</moment_2>
 																							</BaseType>
 																							<moment_3 object_id="_117">
-																								<count>6</count>
+																								<count>11</count>
 																								<item_version>0</item_version>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
@@ -2632,8 +2672,13 @@
 																							</moment_3>
 																						</BaseType>
 																						<moment_4 object_id="_118">
-																							<count>6</count>
+																							<count>11</count>
 																							<item_version>0</item_version>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
@@ -4169,7 +4214,7 @@
 																														</BaseType>
 																														<d_dimension_bin_boundaries>
 																															<px class_id_reference="43" object_id="_136">
-																																<count>7</count>
+																																<count>12</count>
 																																<item_version>0</item_version>
 																																<item>0.00000000000000000e+00</item>
 																																<item>1.00000000000000006e-01</item>
@@ -4178,6 +4223,11 @@
 																																<item>1.60000000000000003e-01</item>
 																																<item>1.79999999999999993e-01</item>
 																																<item>2.00000000000000011e-01</item>
+																																<item>2.20000000000000001e-01</item>
+																																<item>2.39999999999999991e-01</item>
+																																<item>2.60000000000000009e-01</item>
+																																<item>2.80000000000000027e-01</item>
+																																<item>2.99999999999999989e-01</item>
 																															</px>
 																														</d_dimension_bin_boundaries>
 																													</BaseType>
@@ -4185,10 +4235,10 @@
 																												<d_grid_searcher>
 																													<tx class_id_reference="152" object_id="_137">
 																														<BaseType></BaseType>
-																														<d_hash_grid_size>2</d_hash_grid_size>
+																														<d_hash_grid_size>3</d_hash_grid_size>
 																														<d_hash_grid_min>0.00000000000000000e+00</d_hash_grid_min>
-																														<d_hash_grid_max>2.00000000000000011e-01</d_hash_grid_max>
-																														<d_hash_grid_length>2.00000000000000011e-01</d_hash_grid_length>
+																														<d_hash_grid_max>2.99999999999999989e-01</d_hash_grid_max>
+																														<d_hash_grid_length>2.99999999999999989e-01</d_hash_grid_length>
 																														<d_grid>
 																															<px class_id_reference="43" object_id_reference="_136"></px>
 																														</d_grid>
@@ -4234,8 +4284,13 @@
 																						<BaseType>
 																							<BaseType></BaseType>
 																							<moment_1 object_id="_139">
-																								<count>6</count>
+																								<count>11</count>
 																								<item_version>0</item_version>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
@@ -4245,8 +4300,13 @@
 																							</moment_1>
 																						</BaseType>
 																						<moment_2 object_id="_140">
-																							<count>6</count>
+																							<count>11</count>
 																							<item_version>0</item_version>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
@@ -4256,8 +4316,13 @@
 																						</moment_2>
 																					</BaseType>
 																					<moment_3 object_id="_141">
-																						<count>6</count>
+																						<count>11</count>
 																						<item_version>0</item_version>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
@@ -4267,8 +4332,13 @@
 																					</moment_3>
 																				</BaseType>
 																				<moment_4 object_id="_142">
-																					<count>6</count>
+																					<count>11</count>
 																					<item_version>0</item_version>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
@@ -4289,8 +4359,13 @@
 																								<BaseType>
 																									<BaseType></BaseType>
 																									<moment_1 object_id="_143">
-																										<count>6</count>
+																										<count>11</count>
 																										<item_version>0</item_version>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
@@ -4300,8 +4375,13 @@
 																									</moment_1>
 																								</BaseType>
 																								<moment_2 object_id="_144">
-																									<count>6</count>
+																									<count>11</count>
 																									<item_version>0</item_version>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
@@ -4311,8 +4391,13 @@
 																								</moment_2>
 																							</BaseType>
 																							<moment_3 object_id="_145">
-																								<count>6</count>
+																								<count>11</count>
 																								<item_version>0</item_version>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
@@ -4322,8 +4407,13 @@
 																							</moment_3>
 																						</BaseType>
 																						<moment_4 object_id="_146">
-																							<count>6</count>
+																							<count>11</count>
 																							<item_version>0</item_version>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
@@ -5859,7 +5949,7 @@
 																														</BaseType>
 																														<d_dimension_bin_boundaries>
 																															<px class_id_reference="43" object_id="_164">
-																																<count>7</count>
+																																<count>12</count>
 																																<item_version>0</item_version>
 																																<item>0.00000000000000000e+00</item>
 																																<item>1.00000000000000006e-01</item>
@@ -5868,6 +5958,11 @@
 																																<item>1.60000000000000003e-01</item>
 																																<item>1.79999999999999993e-01</item>
 																																<item>2.00000000000000011e-01</item>
+																																<item>2.20000000000000001e-01</item>
+																																<item>2.39999999999999991e-01</item>
+																																<item>2.60000000000000009e-01</item>
+																																<item>2.80000000000000027e-01</item>
+																																<item>2.99999999999999989e-01</item>
 																															</px>
 																														</d_dimension_bin_boundaries>
 																													</BaseType>
@@ -5875,10 +5970,10 @@
 																												<d_grid_searcher>
 																													<tx class_id_reference="152" object_id="_165">
 																														<BaseType></BaseType>
-																														<d_hash_grid_size>2</d_hash_grid_size>
+																														<d_hash_grid_size>3</d_hash_grid_size>
 																														<d_hash_grid_min>0.00000000000000000e+00</d_hash_grid_min>
-																														<d_hash_grid_max>2.00000000000000011e-01</d_hash_grid_max>
-																														<d_hash_grid_length>2.00000000000000011e-01</d_hash_grid_length>
+																														<d_hash_grid_max>2.99999999999999989e-01</d_hash_grid_max>
+																														<d_hash_grid_length>2.99999999999999989e-01</d_hash_grid_length>
 																														<d_grid>
 																															<px class_id_reference="43" object_id_reference="_164"></px>
 																														</d_grid>
@@ -5924,8 +6019,13 @@
 																						<BaseType>
 																							<BaseType></BaseType>
 																							<moment_1 object_id="_167">
-																								<count>6</count>
+																								<count>11</count>
 																								<item_version>0</item_version>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
@@ -5935,8 +6035,13 @@
 																							</moment_1>
 																						</BaseType>
 																						<moment_2 object_id="_168">
-																							<count>6</count>
+																							<count>11</count>
 																							<item_version>0</item_version>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
@@ -5946,8 +6051,13 @@
 																						</moment_2>
 																					</BaseType>
 																					<moment_3 object_id="_169">
-																						<count>6</count>
+																						<count>11</count>
 																						<item_version>0</item_version>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
@@ -5957,8 +6067,13 @@
 																					</moment_3>
 																				</BaseType>
 																				<moment_4 object_id="_170">
-																					<count>6</count>
+																					<count>11</count>
 																					<item_version>0</item_version>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
@@ -5979,8 +6094,13 @@
 																								<BaseType>
 																									<BaseType></BaseType>
 																									<moment_1 object_id="_171">
-																										<count>6</count>
+																										<count>11</count>
 																										<item_version>0</item_version>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
@@ -5990,8 +6110,13 @@
 																									</moment_1>
 																								</BaseType>
 																								<moment_2 object_id="_172">
-																									<count>6</count>
+																									<count>11</count>
 																									<item_version>0</item_version>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
@@ -6001,8 +6126,13 @@
 																								</moment_2>
 																							</BaseType>
 																							<moment_3 object_id="_173">
-																								<count>6</count>
+																								<count>11</count>
 																								<item_version>0</item_version>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
@@ -6012,8 +6142,13 @@
 																							</moment_3>
 																						</BaseType>
 																						<moment_4 object_id="_174">
-																							<count>6</count>
+																							<count>11</count>
 																							<item_version>0</item_version>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
@@ -7549,7 +7684,7 @@
 																														</BaseType>
 																														<d_dimension_bin_boundaries>
 																															<px class_id_reference="43" object_id="_192">
-																																<count>7</count>
+																																<count>12</count>
 																																<item_version>0</item_version>
 																																<item>0.00000000000000000e+00</item>
 																																<item>1.00000000000000006e-01</item>
@@ -7558,6 +7693,11 @@
 																																<item>1.60000000000000003e-01</item>
 																																<item>1.79999999999999993e-01</item>
 																																<item>2.00000000000000011e-01</item>
+																																<item>2.20000000000000001e-01</item>
+																																<item>2.39999999999999991e-01</item>
+																																<item>2.60000000000000009e-01</item>
+																																<item>2.80000000000000027e-01</item>
+																																<item>2.99999999999999989e-01</item>
 																															</px>
 																														</d_dimension_bin_boundaries>
 																													</BaseType>
@@ -7565,10 +7705,10 @@
 																												<d_grid_searcher>
 																													<tx class_id_reference="152" object_id="_193">
 																														<BaseType></BaseType>
-																														<d_hash_grid_size>2</d_hash_grid_size>
+																														<d_hash_grid_size>3</d_hash_grid_size>
 																														<d_hash_grid_min>0.00000000000000000e+00</d_hash_grid_min>
-																														<d_hash_grid_max>2.00000000000000011e-01</d_hash_grid_max>
-																														<d_hash_grid_length>2.00000000000000011e-01</d_hash_grid_length>
+																														<d_hash_grid_max>2.99999999999999989e-01</d_hash_grid_max>
+																														<d_hash_grid_length>2.99999999999999989e-01</d_hash_grid_length>
 																														<d_grid>
 																															<px class_id_reference="43" object_id_reference="_192"></px>
 																														</d_grid>
@@ -7614,8 +7754,13 @@
 																						<BaseType>
 																							<BaseType></BaseType>
 																							<moment_1 object_id="_195">
-																								<count>6</count>
+																								<count>11</count>
 																								<item_version>0</item_version>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
@@ -7625,8 +7770,13 @@
 																							</moment_1>
 																						</BaseType>
 																						<moment_2 object_id="_196">
-																							<count>6</count>
+																							<count>11</count>
 																							<item_version>0</item_version>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
@@ -7636,8 +7786,13 @@
 																						</moment_2>
 																					</BaseType>
 																					<moment_3 object_id="_197">
-																						<count>6</count>
+																						<count>11</count>
 																						<item_version>0</item_version>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
@@ -7647,8 +7802,13 @@
 																					</moment_3>
 																				</BaseType>
 																				<moment_4 object_id="_198">
-																					<count>6</count>
+																					<count>11</count>
 																					<item_version>0</item_version>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
@@ -7669,8 +7829,13 @@
 																								<BaseType>
 																									<BaseType></BaseType>
 																									<moment_1 object_id="_199">
-																										<count>6</count>
+																										<count>11</count>
 																										<item_version>0</item_version>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
@@ -7680,8 +7845,13 @@
 																									</moment_1>
 																								</BaseType>
 																								<moment_2 object_id="_200">
-																									<count>6</count>
+																									<count>11</count>
 																									<item_version>0</item_version>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
@@ -7691,8 +7861,13 @@
 																								</moment_2>
 																							</BaseType>
 																							<moment_3 object_id="_201">
-																								<count>6</count>
+																								<count>11</count>
 																								<item_version>0</item_version>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
@@ -7702,8 +7877,13 @@
 																							</moment_3>
 																						</BaseType>
 																						<moment_4 object_id="_202">
-																							<count>6</count>
+																							<count>11</count>
 																							<item_version>0</item_version>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
@@ -9239,7 +9419,7 @@
 																														</BaseType>
 																														<d_dimension_bin_boundaries>
 																															<px class_id_reference="43" object_id="_220">
-																																<count>7</count>
+																																<count>12</count>
 																																<item_version>0</item_version>
 																																<item>0.00000000000000000e+00</item>
 																																<item>1.00000000000000006e-01</item>
@@ -9248,6 +9428,11 @@
 																																<item>1.60000000000000003e-01</item>
 																																<item>1.79999999999999993e-01</item>
 																																<item>2.00000000000000011e-01</item>
+																																<item>2.20000000000000001e-01</item>
+																																<item>2.39999999999999991e-01</item>
+																																<item>2.60000000000000009e-01</item>
+																																<item>2.80000000000000027e-01</item>
+																																<item>2.99999999999999989e-01</item>
 																															</px>
 																														</d_dimension_bin_boundaries>
 																													</BaseType>
@@ -9255,10 +9440,10 @@
 																												<d_grid_searcher>
 																													<tx class_id_reference="152" object_id="_221">
 																														<BaseType></BaseType>
-																														<d_hash_grid_size>2</d_hash_grid_size>
+																														<d_hash_grid_size>3</d_hash_grid_size>
 																														<d_hash_grid_min>0.00000000000000000e+00</d_hash_grid_min>
-																														<d_hash_grid_max>2.00000000000000011e-01</d_hash_grid_max>
-																														<d_hash_grid_length>2.00000000000000011e-01</d_hash_grid_length>
+																														<d_hash_grid_max>2.99999999999999989e-01</d_hash_grid_max>
+																														<d_hash_grid_length>2.99999999999999989e-01</d_hash_grid_length>
 																														<d_grid>
 																															<px class_id_reference="43" object_id_reference="_220"></px>
 																														</d_grid>
@@ -9304,8 +9489,13 @@
 																						<BaseType>
 																							<BaseType></BaseType>
 																							<moment_1 object_id="_223">
-																								<count>6</count>
+																								<count>11</count>
 																								<item_version>0</item_version>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
@@ -9315,8 +9505,13 @@
 																							</moment_1>
 																						</BaseType>
 																						<moment_2 object_id="_224">
-																							<count>6</count>
+																							<count>11</count>
 																							<item_version>0</item_version>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
@@ -9326,8 +9521,13 @@
 																						</moment_2>
 																					</BaseType>
 																					<moment_3 object_id="_225">
-																						<count>6</count>
+																						<count>11</count>
 																						<item_version>0</item_version>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
+																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
 																						<item>0.00000000000000000e+00</item>
@@ -9337,8 +9537,13 @@
 																					</moment_3>
 																				</BaseType>
 																				<moment_4 object_id="_226">
-																					<count>6</count>
+																					<count>11</count>
 																					<item_version>0</item_version>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
+																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
 																					<item>0.00000000000000000e+00</item>
@@ -9359,8 +9564,13 @@
 																								<BaseType>
 																									<BaseType></BaseType>
 																									<moment_1 object_id="_227">
-																										<count>6</count>
+																										<count>11</count>
 																										<item_version>0</item_version>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
+																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
 																										<item>0.00000000000000000e+00</item>
@@ -9370,8 +9580,13 @@
 																									</moment_1>
 																								</BaseType>
 																								<moment_2 object_id="_228">
-																									<count>6</count>
+																									<count>11</count>
 																									<item_version>0</item_version>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
+																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
 																									<item>0.00000000000000000e+00</item>
@@ -9381,8 +9596,13 @@
 																								</moment_2>
 																							</BaseType>
 																							<moment_3 object_id="_229">
-																								<count>6</count>
+																								<count>11</count>
 																								<item_version>0</item_version>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
+																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
 																								<item>0.00000000000000000e+00</item>
@@ -9392,8 +9612,13 @@
 																							</moment_3>
 																						</BaseType>
 																						<moment_4 object_id="_230">
-																							<count>6</count>
+																							<count>11</count>
 																							<item_version>0</item_version>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
+																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
 																							<item>0.00000000000000000e+00</item>
